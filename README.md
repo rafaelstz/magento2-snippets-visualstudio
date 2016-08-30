@@ -20,15 +20,6 @@
 Trigger | Description
 --- | ---
 getBaseUrl | URL of your store
-getSkinUrl | URL of your theme skin folder
-getFormActionUrl | Get form action
-
-### Blocks
-
-Trigger | Description
---- | ---
-getChildHtml | Get a block XML
-getCmsBlock | Get admin static block by ID
 
 
 ## Source
