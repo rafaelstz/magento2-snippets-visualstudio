@@ -1,0 +1,40 @@
+{
+	"name": "magento-2-snippets",
+	"displayName": "Magento 2 Snippets",
+	"description": "A set of Magento 2 Snippets for Visual Studio Code",
+	"icon": "images/icon.png",
+	"version": "0.0.1",
+	"publisher": "rafaelcgstz",
+	"license":"See License section in README.md",
+	"homepage":"https://github.com/rafaelstz/magento2-snippets-visualstudio/blob/master/README.md",
+	"author": {
+    	"name": "Rafael Corrêa Gomes"
+  	},
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/rafaelstz/magento2-snippets-visualstudio.git"
+    },
+	"bugs": "https://github.com/rafaelstz/magento2-snippets-visualstudio/issues",
+	"engines": {
+		"vscode": "*"
+	},
+	"galleryBanner": {
+        "color": "#F7F3EB",
+        "theme": "light"
+    },
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+				{
+					"language": "html",
+					"path": "./snippets/snippets.json"
+				},
+    			{
+    				"language": "php",
+ 		    		"path": "./snippets/snippets.json"
+ 			}
+		]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"getBaseUrl": {
+		"prefix": "getBaseUrl",
+		"body": "\n${3:$this}->getBaseUrl(${1})${2}\n",
+		"description": "Magento 2 getBaseUrl function",
+		"scope": ""
+	}
+}
