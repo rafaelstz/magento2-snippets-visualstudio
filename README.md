@@ -21,6 +21,11 @@ Trigger | Description
 --- | ---
 getBaseUrl | URL of your store
 
+## XML
+
+Trigger | Description
+--- | ---
+getPhtmlBlock | Get PHTML
 
 ## Source
 

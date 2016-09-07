@@ -1,0 +1,8 @@
+{
+	"getPhtmlBlock": {
+		"prefix": "getPhtmlBlock",
+		"body": "\n<referenceBlock name=\"${4:category.products.list}\">\n\t<block name=\"${3:you.cms.block}\" as=\"${2:something}\" class=\"Magento\\Cms\\Block\\Block\">\n\t<arguments>\n\t<argument name=\"${1:block_id}\" xsi:type=\"string\">${1:block_id}</argument>\n\t</arguments>\n\t</block>\n\t</referenceBlock>${5}\n",
+		"description": "Magento 2 get PHTML in XML",
+		"scope": ""
+	}
+}
