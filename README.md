@@ -21,7 +21,13 @@ Trigger | Description
 --- | ---
 getBaseUrl | URL of your store
 
-## XML
+### Helpers
+
+Trigger | Description
+--- | ---
+getHelper | Get a specific Helper
+
+### XML
 
 Trigger | Description
 --- | ---
