@@ -21,6 +21,12 @@ Trigger | Description
 --- | ---
 getBaseUrl | URL of your store
 
+### Blocks
+
+Trigger | Description
+--- | ---
+getBlockHtml | Get specific block html
+
 ### Helpers
 
 Trigger | Description
