@@ -10,5 +10,11 @@
 		"body": "\n${3:$this}->helper('${1:Magento\\Tax\\Helper\\Data}')${2}\n",
 		"description": "Magento 2 get Helper",
 		"scope": ""
+	},
+	"getBlockHtml": {
+		"prefix": "getBlockHtml",
+		"body": "\n${3:$block}->getBlockHtml('${1:formkey}')${2}\n",
+		"description": "Magento 2 get Helper",
+		"scope": ""
 	}
 }
