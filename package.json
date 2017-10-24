@@ -13,15 +13,16 @@
 	"repository": {
         "type": "git",
         "url": "https://github.com/rafaelstz/magento2-snippets-visualstudio.git"
-    },
+    	},
 	"bugs": "https://github.com/rafaelstz/magento2-snippets-visualstudio/issues",
+	"test": "node ./node_modules/vscode/bin/test",
 	"engines": {
 		"vscode": "*"
 	},
 	"galleryBanner": {
-        "color": "#F7F3EB",
-        "theme": "light"
-    },
+        	"color": "#F7F3EB",
+        	"theme": "light"
+    	},
 	"categories": [
 		"Snippets"
 	],
