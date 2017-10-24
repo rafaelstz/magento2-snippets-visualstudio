@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
     <img src="https://cdn.rawgit.com/rafaelstz/magento2-snippets-visualstudio/master/images/icon.png" alt="Magento 2 Snippets" width="128" height="128">
+    <img src="https://travis-ci.org/rafaelstz/magento2-snippets-visualstudio.svg?branch=master" alt="Travis CI">
   <br>
   VS Code - Magento 2 Snippets
   <br>
