@@ -16,15 +16,8 @@ before_install:
     fi
   - nvm install 8
   - nvm use 8
+  - npm i -g vsce
 
 install:
-  - npm install
-  - npm run vscode:prepublish
-
-script:
-  - npm run lint
-  - npm run build
-  - npm test --silent
-  
-after_success:
-  - npm run semantic-release
+  - npm i
+  - vsce package

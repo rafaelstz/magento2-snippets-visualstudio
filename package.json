@@ -5,41 +5,44 @@
 	"icon": "images/icon.png",
 	"version": "0.0.5",
 	"publisher": "rafaelcgstz",
-	"license":"See License section in README.md",
-	"homepage":"https://github.com/rafaelstz/magento2-snippets-visualstudio/blob/master/README.md",
+	"license": "See License section in README.md",
+	"homepage": "https://github.com/rafaelstz/magento2-snippets-visualstudio/blob/master/README.md",
 	"author": {
-    	"name": "Rafael Corrêa Gomes"
-  	},
+		"name": "Rafael Corrêa Gomes"
+	},
 	"repository": {
-        "type": "git",
-        "url": "https://github.com/rafaelstz/magento2-snippets-visualstudio.git"
-    	},
+		"type": "git",
+		"url": "https://github.com/rafaelstz/magento2-snippets-visualstudio.git"
+	},
 	"bugs": "https://github.com/rafaelstz/magento2-snippets-visualstudio/issues",
 	"test": "node ./node_modules/vscode/bin/test",
 	"engines": {
 		"vscode": "*"
 	},
 	"galleryBanner": {
-        	"color": "#F7F3EB",
-        	"theme": "light"
-    	},
+		"color": "#F7F3EB",
+		"theme": "light"
+	},
 	"categories": [
 		"Snippets"
 	],
 	"contributes": {
 		"snippets": [
-				{
-					"language": "html",
-					"path": "./snippets/snippets.json"
-				},
-    			{
-    				"language": "php",
- 		    		"path": "./snippets/snippets.json"
- 				},
-				 {
-    				"language": "xml",
- 		    		"path": "./snippets/snippetsxml.json"
- 				}
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "xml",
+				"path": "./snippets/snippetsxml.json"
+			}
 		]
+	},
+	"dependencies": {
+		"vsce": "^1.31.1"
 	}
 }
