@@ -13,8 +13,8 @@
   <a href="https://github.com/rafaelstz/magento2-snippets-visualstudio/releases">
     <img src="https://img.shields.io/github/release/rafaelstz/magento2-snippets-visualstudio.svg" alt="Release">
   </a>
-  <a href="https://travis-ci.org/rafaelstz/magento2-snippets-visualstudio/">
-    <img src="https://travis-ci.org/rafaelstz/magento2-snippets-visualstudio.svg?branch=master" alt="Travis CI">
+  <a href="https://marketplace.visualstudio.com/items?itemName=rafaelcgstz.magento-2-snippets">
+    <img src="http://vsmarketplacebadge.apphb.com/installs-short/rafaelcgstz.magento-2-snippets.svg" alt="Magento 2 Snippets Installs">
   </a>
 </p>
 
